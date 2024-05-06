@@ -4,4 +4,4 @@ COPY ./Frontend/index.html /usr/share/nginx/html/
 COPY ./Backend/script.js /usr/share/nginx/html/Backend/
 
 # nginx -g daemon off;
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]doc
